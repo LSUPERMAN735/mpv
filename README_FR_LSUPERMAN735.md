@@ -5,7 +5,7 @@
 --------------
 
 
-* [Liens externes] (# liens externes)
+* [Liens externes] (#external-links)
 * [Aperçu] (# aperçu)
 * [Configuration requise] (# exigences système)
 * [Téléchargements] (# téléchargements)
