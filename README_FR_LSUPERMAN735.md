@@ -56,7 +56,7 @@ Le système de construction mpv utilise [waf](https://waf.io/),mais nous ne le s
 
 Pour obtenir une liste des options de génération disponibles, utilisez `./waf configure --help`. Si vous pensez que vous avez un support pour certaines fonctionnalités installées mais que la configuration ne parvient pas à le détecter, le fichier `build/config.log` peut contenir des informations sur les raisons de l'échec.
 
-NOTE : pour éviter d'encombrer la sortie avec du spam illisible, `--help` seulement des spectacles l'un des deux switchs pour chaque option. Si l'option est détectée automatiquement par défaut, le `--disable-***` le commutateur est imprimé ; si l'option est désactivée par défaut, le `--enable-***` le switch est imprimé. De toute façon, vous pouvez utiliser `--enable-***` or `--disable-**` indépendamment de ce qui est imprimé par `--help`.
+NOTE : pour éviter d'encombrer la sortie avec du spam illisible, `--help` seulement des spectacles l'un des deux switchs pour chaque option. Si l'option est détectée automatiquement par défaut, le `--disable-***` le switch est imprimé ; si l'option est désactivée par défaut, le `--enable-***` le switch est imprimé. De toute façon, vous pouvez utiliser `--enable-***` or `--disable-**` indépendamment de ce qui est imprimé par `--help`.
 
 Pour construire le logiciel, vous pouvez utiliser `./waf build`: le résultat de la compilation sera situé dans `build / mpv`. Vous pouvez utiliser `./waf install` pour installer mpv au * prefix * après sa compilation.
 Exemple :
@@ -129,7 +129,7 @@ Utilisation du bug tracker comme lieu pour des questions simples est bien, mais 
 
 Veuillez lire [contrib.md] [contribute.md].
 
-Pour de petits changements, vous pouvez simplement nous envoyer des demandes de pull via GitHub. Pour plus grand les changements viennent et nous parlent sur IRC avant que vous commenciez à travailler dessus. Ce sera rendre l'examen du code plus facile pour les deux parties plus tard.
+Pour de petits changements, vous pouvez simplement nous envoyer des demandes de pull via GitHub. Pour plus grand les changements viennent et nous parlent sur IRC avant que vous commenciez à travailler dessus. Ce sera rendre l'analyse du code plus facile pour les deux parties plus tard.
 
 Tu peux vérifier [le wiki](https://github.com/mpv-player/mpv/wiki/Stuff-to-do) ou le [traceur de problèmes GitHub ](https://github.com/mpv-player/mpv/issues?q=is%3Aopen+is%3Aissue+label%3A%22feature+request%22) pour des idées.
 
@@ -150,7 +150,7 @@ Pour en savoir plus [détails.] (Https://github.com/mpv-player/mpv/blob/master/C
 
 La plupart des activités se déroulent sur le canal IRC et le tracker de problèmes de github.
 
- - **traceur de problèmes GitHub**: [traceur de problèmes ][issue-tracker] (signaler les bugs ici)
+ - **Traceur de problèmes GitHub**: [traceur de problèmes ][issue-tracker] (signaler les bugs ici)
  - **Chaîne IRC de l'utilisateur**: `#mpv` sur `irc.freenode.net`
  - **Canal IRC du développeur**: `#mpv-devel` sur `irc.freenode.net`
 
