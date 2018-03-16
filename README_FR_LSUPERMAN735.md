@@ -1,10 +1,7 @@
 ![http://mpv.io/](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)
 
 ## mpv
-
 --------------
-
-
 * [Liens externes](#external-links)
 * [Aperçu] (# aperçu)
 * [Configuration requise] (# exigences système)
@@ -20,17 +17,12 @@
 * [Licence] (# licence)
 * [Contact] (# contact)
 
-
 ## Liens externes
-
-
 * [Wiki] (https://github.com/mpv-player/mpv/wiki)
 * [FAQ] (https://github.com/mpv-player/mpv/wiki/FAQ)
 * [Manuel] (http://mpv.io/manual/master/)
 
-
 ## Aperçu
-
 
 **mpv** est un lecteur multimédia basé sur MPlayer et mplayer2. Il prend en charge beaucoup de formats de fichiers vidéo, codecs audio et vidéo et types de sous-titres.
 
@@ -42,14 +34,11 @@ Les Sorties peuvent être trouvés sur la [liste de Sorties][Sorties].
 - Un bon processeur. Le décodage matériel peut aider si le processeur est trop lent à Décoder la vidéo en temps réel, mais doit être explicitement activé avec `--hwdec` option.
 - Un bon GPU. mpv n'est pas destiné à être utilisé avec de mauvais GPU. Il y a de nombreuses mises en garde avec des pilotes ou des compositeurs de système causant des déchirures, bug etc. Sur Windows, vous pouvez vous assurer que les pilotes graphiques sont actuel. Dans certains cas, les anciennes méthodes de sortie vidéo de secours peuvent aider (comme `--vo = xv` sous Linux), mais cette utilisation n'est pas recommandée ni prise en charge.
 
-
 ## Téléchargements
-
 
 Pour les builds semi-officiels et les packs tiers, veuillez consulter ici [mpv.io/installation](http://mpv.io/installation/).
 
 ## Changelog
-
 
 Il n'y a pas de changelog complet ; Cependant, les modifications apportées à l'interface du lecteur sont répertoriés dans l'[interface changelog][interface-changes].
 
@@ -60,7 +49,6 @@ Le [liste de Sorties][Sorties] hcomme un résumé de la plupart des changements 
 Les modifications apportées aux raccourcis clavier par défaut sont indiquées dans [restore-old-bindings.conf][restore-old-bindings].
 
 ## Compilation
-
 
 La compilation avec des fonctionnalités complètes nécessite des fichiers de développement pour plusieurs bibliothèques externes. Voici une liste de certaines exigences importantes.
 
@@ -79,7 +67,6 @@ Exemple :
     ./waf install
 
 Dépendances essentielles (liste incomplète) :
-
 - gcc ou clang
 - En-têtes de développement X (xlib, xrandr, xext, xscrnsaver, xinerama, libvdpau, libGL, GLX, EGL, xv, ...)
 - En-têtes de développement de sortie audio (libasound/ALSA, pulseaudio)
@@ -98,7 +85,6 @@ Libass dépendances :
 - fribidi, freetype, en-têtes de développement fontconfig (pour libass)
 - harfbuzz (facultatif, requis pour le rendu correct des caractères de combinaison, en particulier pour le rendu correct du texte non anglais sur OSX, et Arabe / Indic scripts sur n'importe quelle plate-forme)
 
-
 FFmpeg dépendances : 
 - gcc ou clang, yasm sur x86 et x86_64
 - OpenSSL ou GnuTLS (doivent être activés explicitement lors de la compilation de FFmpeg)
@@ -112,7 +98,6 @@ La plupart des bibliothèques ci-dessus sont disponibles dans des versions appro
 ## FFmpeg vs. Libav
 
 En général, MPV devrait fonctionner avec la dernière version ainsi que la version git à la fois FFmpeg et Libav. Mais FFmpeg est préféré, et certaines fonctionnalités MPV fonctionnent avec FFmpeg seulement (formats de sous-titres en particulier).
-
 
 ## Compatibilité FFmpeg ABI 
 
@@ -132,14 +117,11 @@ Les versions autres que la dernière version ne sont pas prises en charge et ne 
 
 Voir le document [document pour la politique de confidentialité] [release-policy] pour plus d'informations.
 
-
 ## Rapports de bogues
-
 
 S'il vous plaît utiliser le [questionnaire de tracking] [issue-tracker] fourni par GitHub pour nous envoyer un bug rapports ou demandes de fonctionnalités. Suivez les instructions du modèle ou le problème sera probablement ignoré ou fermé comme non valide.
 
 Utilisation du bug tracker comme lieu pour des questions simples est bien, mais IRC est recommandé (voir [Contact] (# Contact) ci-dessous).
-
 
 
 ## Contribution
@@ -164,13 +146,11 @@ Si vous vous demandez ce qui est différent de mplayer2 et MPlayer, une liste de
 GPLv2 "ou plus " par défaut, LGPLv2.1 "or plus" avec `--enable-lgpl`.
 Pour en savoir plus [détails.] (Https://github.com/mpv-player/mpv/blob/master/Copyright)
 
-
 ## Contact
-
 
 La plupart des activités se déroulent sur le canal IRC et le tracker de problèmes de github.
 
- - **traceur de problèmes GitHub **: [traceur de problèmes ][issue-tracker] (signaler les bugs ici)
+ - **traceur de problèmes GitHub**: [traceur de problèmes ][issue-tracker] (signaler les bugs ici)
  - **Chaîne IRC de l'utilisateur**: `#mpv` sur `irc.freenode.net`
  - **Canal IRC du développeur**: `#mpv-devel` sur `irc.freenode.net`
 
